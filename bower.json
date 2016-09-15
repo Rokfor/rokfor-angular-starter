@@ -1,0 +1,32 @@
+{
+  "name": "rokfor-angular-starter",
+  "description": "Seed Project for Rokfor and Angular",
+  "main": "",
+  "authors": [
+    "Urs Hofer"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "rokfor",
+    "cms",
+    "api-first"
+  ],
+  "homepage": "https://github.com/Rokfor/rokfor-angular-starter",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

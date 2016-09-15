@@ -1,0 +1,33 @@
+  <section>
+    <h1>
+      <header ng-bind-html="'You Loaded the Book ' + data.Book.Name"></header>
+    </h1>
+  </section>
+  <section>
+    <br/>
+    <p>Name: {{data.Book.Name}}</p>
+    <p>Id: {{data.Book.Id}}</p>    
+  </section>
+
+  <section>
+    <br/>
+    <p>The book has multiple Issues</p>
+    <p data-ng-repeat="issue in data.Book.Issues">{{issue.Id}}: {{issue.Name}}</p>
+  </section>
+
+  <section>
+    <br/>
+    <p>Probably the book is referenced by some content:</p>
+    <div data-ng-repeat="reference in data.Book.ReferencedFrom">
+      <p>Referenced in <b>{{reference.Contribution.Name}}</b> with Id {{reference.Contribution.Id}}</p>
+      <img src="{{'https:' + reference.Data.Upload.Content[0].Files.Resized[0]}}">
+      <p>{{reference.Data.Upload.Content[0].Captions}}</p>
+    </div>
+  </section>
+
+  <section>
+    <br/>
+      <h5>
+        <a href="/">Back to Top</a>
+      </h5>
+  </section>

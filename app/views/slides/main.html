@@ -1,0 +1,13 @@
+  <section>
+    <h1>
+      <header ng-cloak>
+        There are {{data.Books.length}} Books available.
+      </header>
+    </h1>
+  </section>
+  <section data-ng-repeat="d in data.Books" ng-cloak>
+    <br/>
+      <h5>
+        <a href="/Book/{{d.Id}}">Book {{d.Id}}: {{d.Name}}</a>
+      </h5>
+  </section>
