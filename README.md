@@ -25,7 +25,7 @@ Referring to the readme of [angularjs-gulp-browserify-boilerplate](https://githu
 
 Like the [PHP Boilerplate](https://github.com/Rokfor/rokfor-php-starter), this example accesses 
 the rokfor demo server. There's only a limited read-only access open to the public. Ping 
-me (@uphofer) if you need a real account or deploy your own 
+me [@uphofer](http://twitter.com/uphofer) if you need a real account or deploy your own 
 [server](https://github.com/Rokfor/rokfor-slim).
 
 In order to change your api credentials, open `constants.js` in the `app` folder:
